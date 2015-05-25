@@ -1,0 +1,23 @@
+﻿  Compiling CUDA source file CUDAMexMandelbrotArrayFire.cu...
+  
+  D:\GitHub\arrayfire-windows-scripts\SimpleCUDAProj\MandelbrotCUDATest1\MandelbrotCUDATest1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I\extern\include -I\toolbox\distcomp\gpu\extern\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -DMATLAB_MEX_FILE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o x64\Debug\CUDAMexMandelbrotArrayFire.cu.obj "D:\GitHub\arrayfire-windows-scripts\SimpleCUDAProj\MandelbrotCUDATest1\MandelbrotCUDATest1\CUDAMexMandelbrotArrayFire.cu" 
+D:\GitHub\arrayfire-windows-scripts\v3.0.beta\include\af/array.h(41): warning : field of class type without a DLL interface used in a class with a DLL interface
+D:\GitHub\arrayfire-windows-scripts\v3.0.beta\include\af/array.h(41): warning : field of class type without a DLL interface used in a class with a DLL interface
+  CUDAMexMandelbrotArrayFire.cu
+D:\GitHub\arrayfire-windows-scripts\v3.0.beta\include\af/array.h(41): warning C4251: 'af::array::s' : class 'std::vector<af::seq,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'af::array'
+          with
+          [
+              _Ty=af::seq
+          ]
+D:/GitHub/arrayfire-windows-scripts/SimpleCUDAProj/MandelbrotCUDATest1/MandelbrotCUDATest1/CUDAMexMandelbrotArrayFire.cu(50): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+D:/GitHub/arrayfire-windows-scripts/SimpleCUDAProj/MandelbrotCUDATest1/MandelbrotCUDATest1/CUDAMexMandelbrotArrayFire.cu(51): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+     Creating library D:\GitHub\arrayfire-windows-scripts\SimpleCUDAProj\MandelbrotCUDATest1\x64\Debug\MandelbrotCUDATest1.lib and object D:\GitHub\arrayfire-windows-scripts\SimpleCUDAProj\MandelbrotCUDATest1\x64\Debug\MandelbrotCUDATest1.exp
+  MandelbrotCUDATest1.vcxproj -> D:\GitHub\arrayfire-windows-scripts\SimpleCUDAProj\MandelbrotCUDATest1\x64\Debug\MandelbrotCUDATest1.mexw64
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "D:\GitHub\arrayfire-windows-scripts\SimpleCUDAProj\MandelbrotCUDATest1\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart32_65.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart64_65.dll
+          2 file(s) copied.
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\nvvm\bin\nvvm64*.dll" "D:\GitHub\arrayfire-windows-scripts\SimpleCUDAProj\MandelbrotCUDATest1\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\nvvm\bin\nvvm64_20_0.dll
+          1 file(s) copied.

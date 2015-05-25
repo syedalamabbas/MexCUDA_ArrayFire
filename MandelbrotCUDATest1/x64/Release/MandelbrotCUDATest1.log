@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (MandelbrotCUDATest1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     Creating library D:\GitHub\arrayfire-windows-scripts\SimpleCUDAProj\MandelbrotCUDATest1\x64\Release\MEXMandelbrotCUDAArrayFire.lib and object D:\GitHub\arrayfire-windows-scripts\SimpleCUDAProj\MandelbrotCUDATest1\x64\Release\MEXMandelbrotCUDAArrayFire.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  MandelbrotCUDATest1.vcxproj -> D:\GitHub\arrayfire-windows-scripts\SimpleCUDAProj\MandelbrotCUDATest1\x64\Release\MEXMandelbrotCUDAArrayFire.mexw64
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "D:\GitHub\arrayfire-windows-scripts\SimpleCUDAProj\MandelbrotCUDATest1\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart32_65.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart64_65.dll
+          2 file(s) copied.
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\nvvm\bin\nvvm64*.dll" "D:\GitHub\arrayfire-windows-scripts\SimpleCUDAProj\MandelbrotCUDATest1\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\nvvm\bin\nvvm64_20_0.dll
+          1 file(s) copied.
